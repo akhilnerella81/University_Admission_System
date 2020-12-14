@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.wel">
+   <children>
+      <Button fx:id="btnup" layoutX="241.0" layoutY="89.0" mnemonicParsing="false" onAction="#Usersignup" prefHeight="38.0" prefWidth="126.0" text="USER SIGN UP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnadmin" layoutX="306.0" layoutY="31.0" mnemonicParsing="false" onAction="#ADMIN" prefHeight="32.0" prefWidth="70.0" text="ADMIN">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnin" layoutX="74.0" layoutY="89.0" mnemonicParsing="false" onAction="#Usersignin" prefHeight="38.0" prefWidth="125.0" text="USER SIGN IN">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <ImageView fx:id="img" fitHeight="178.0" fitWidth="400.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/swe1.jpeg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblwel" layoutX="22.0" layoutY="167.0" prefHeight="38.0" prefWidth="355.0" text="WELCOME TO THE SWE UNIVERSITY">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="titUAS" layoutX="10.0" layoutY="28.0" prefHeight="38.0" prefWidth="273.0" text="UNIVERSITY ADMISSION SYSTEM" textFill="#b72222">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

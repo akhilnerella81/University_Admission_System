@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.signupcontroller">
+   <children>
+      <Label layoutX="164.0" layoutY="53.0" text="USER SIGNUP" textFill="#2e42c7e8">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="-7.0" layoutY="99.0" prefHeight="18.0" prefWidth="500.0" text="-------------------------------------------PLEASE SIGNUP-----------------------------------------------" />
+      <TextField fx:id="txtfrstname" layoutX="26.0" layoutY="174.0" prefHeight="35.0" prefWidth="162.0" promptText="First Name">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtlstname" layoutX="278.0" layoutY="174.0" prefHeight="35.0" prefWidth="162.0" promptText="Last Name">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtphnnumber" layoutX="24.0" layoutY="232.0" prefHeight="35.0" prefWidth="335.0" promptText="Phone number">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtmail" layoutX="24.0" layoutY="290.0" prefHeight="35.0" prefWidth="335.0" promptText="Email Address">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnreg" layoutX="142.0" layoutY="434.0" mnemonicParsing="false" onAction="#TOLOGIN" text="REGISTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pwd" layoutX="18.0" layoutY="344.0" prefHeight="35.0" prefWidth="178.0" promptText="Password">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="repeatpwd" layoutX="278.0" layoutY="344.0" prefHeight="35.0" prefWidth="162.0" promptText="Repeat Password">
+         <font>
+            <Font name="Comic Sans MS Italic" size="14.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="STATUS" layoutX="19.0" layoutY="117.0" prefHeight="35.0" prefWidth="116.0" text="STATUS">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
