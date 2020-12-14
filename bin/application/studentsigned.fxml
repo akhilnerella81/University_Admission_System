@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.studentdshboard">
+   <children>
+      <VBox fx:id="vbox" layoutX="14.0" layoutY="83.0" prefHeight="460.0" prefWidth="119.0">
+         <children>
+            <Button fx:id="btndsh" mnemonicParsing="false" onAction="#BTNDASH" prefHeight="83.0" prefWidth="119.0" text="Dash Board">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnadmupl" mnemonicParsing="false" onAction="#BTNADM" prefHeight="90.0" prefWidth="123.0" text="Admission Form">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnuploaddocs" mnemonicParsing="false" onAction="#BTMDOC" prefHeight="78.0" prefWidth="119.0" text="Upload docs">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane fx:id="ancpane" layoutX="133.0" layoutY="78.0" prefHeight="469.0" prefWidth="417.0">
+         <children>
+            <Label layoutX="76.0" layoutY="41.0" text="LOGGEDIN,SUCCESSFULLY " textFill="#20358a">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="83.0" layoutY="100.0" prefHeight="54.0" prefWidth="219.0" text="WELCOME" textFill="#4a8737">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label alignment="CENTER" layoutX="32.0" layoutY="29.0" prefHeight="36.0" prefWidth="166.0" text="Hello,Student" textFill="#ca3838">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="-28.0" layoutY="29.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.admin">
+   <children>
+      <Label layoutX="62.0" layoutY="14.0" text="WELCOME ADMIN" textFill="#ad3b3bcd">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="18.0" />
+         </font></Label>
+      <Button fx:id="btn2" disable="true" layoutX="4.0" layoutY="455.0" mnemonicParsing="false" opacity="0.0" prefHeight="34.0" prefWidth="66.0" />
+      <Button fx:id="btn1" layoutX="206.0" layoutY="433.0" mnemonicParsing="false" onAction="#Select" prefHeight="39.0" prefWidth="138.0" text="SELECT">
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <TableView fx:id="table" layoutX="4.0" layoutY="66.0" prefHeight="342.0" prefWidth="888.0">
+        <columns>
+          <TableColumn fx:id="col1" prefWidth="75.0" text="NAME" />
+          <TableColumn fx:id="col2" prefWidth="97.5999984741211" text="EMAIL" />
+            <TableColumn fx:id="col3" prefWidth="91.20001220703125" text="FATHERNAME" />
+            <TableColumn fx:id="col5" prefWidth="79.20001220703125" text="UNIVERSITY" />
+            <TableColumn fx:id="col6" prefWidth="96.80001831054688" sortType="DESCENDING" text="PERCENTAGE" />
+            <TableColumn fx:id="col7" prefWidth="83.20001220703125" text="UNIVERSITY" />
+            <TableColumn fx:id="col8" prefWidth="84.0" sortType="DESCENDING" text="PERCENTAGE" />
+            <TableColumn fx:id="col9" prefWidth="79.99993896484375" text="DOB" />
+            <TableColumn fx:id="col10" prefWidth="126.4000244140625" text="ADDRESS" />
+            <TableColumn fx:id="col4" prefWidth="70.39996337890625" text="SELECTED" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="344.0" layoutY="48.0" prefHeight="18.0" prefWidth="175.0" text="TENTH">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="521.0" layoutY="48.0" prefHeight="18.0" prefWidth="153.0" text="INTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="label" layoutX="399.0" layoutY="412.0" prefHeight="26.0" prefWidth="167.0" text="STATUS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="455.0" prefHeight="34.0" prefWidth="347.0" text="**If  student is selected  selected column shows &quot;1&quot;  else &quot;0&quot;" textFill="#ca1e1e" />
+   </children>
+</AnchorPane>
