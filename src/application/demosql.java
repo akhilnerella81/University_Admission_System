@@ -15,7 +15,7 @@ private ObservableList<admission> list;
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		 url = "jdbc:mysql://localhost:3306/uas0";
 	     uname = "root";
-	     pass  = "Akhi@2002";
+	     pass  = "pass";
 	    con = DriverManager.getConnection(url,uname,pass);
 	}
 	
